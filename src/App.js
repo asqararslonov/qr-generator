@@ -15,7 +15,7 @@ function App() {
   return (
     <div className={classes.container}>
       <div>
-        <h2 className={classes.title}>Generate Download & Scan QR Code with React js</h2>
+        <h2 className={classes.title}>Generate Download QR Code with React js</h2>
         <div>
           <div >
             <div className={classes.center}>
