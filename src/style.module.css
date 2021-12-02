@@ -1,0 +1,59 @@
+.input {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  width: 80%;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+.input:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.container {
+  padding: 0  20%  0 20%;
+}
+.title {
+  background: #0275d8 ;
+  color: white;
+  font-family: Roboto, "Helvetica Neue";
+  font-weight: 500;
+  padding: 30px;
+  text-align: center;
+}
+.btn {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background: #0275d8 ;
+}
+.div {
+  width: 400px;
+}
+@media screen and (max-width: 645px) {
+  .input {
+    width: 100%;
+  }
+  
+  .btn {
+  /* position: absolute;
+  left: 50%;
+   */
+  transform: translate(35%, 10%);
+  width: 60%;
+  }
+  
+}
+@media screen and (min-width:645px){
+  
+}
+.center {
+  display:flex;
+  justify-content: center;
+}
